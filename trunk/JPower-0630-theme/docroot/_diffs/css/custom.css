@@ -1,0 +1,9 @@
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+#sign-in {
+   background: url(/JPower-theme/images/common/key.png) no-repeat 3px 50%;
+   font-weight: bold;
+   padding: 5px 5px 5px 25px;
+   position: absolute;
+   right: 0;
+   top: -1.2em;
+}

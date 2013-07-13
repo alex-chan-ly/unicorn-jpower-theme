@@ -1,0 +1,70 @@
+.tab {
+  font-family: arial, verdana, san-serif;
+  font-size: 12px; }
+
+.asd {
+  text-decoration: none;
+  font-family: arial, verdana, san-serif;
+  font-size: 12px;
+  color: #bebebe; }
+
+/*****remove the list style****/
+#nav {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+/*****LI display inline *****/
+#nav li {
+  float: left;
+  display: block;
+  width: 120px;
+  background: #ffffff;
+  position: relative;
+  z-index: 300;
+  margin: 0 1px; }
+
+/*****parent menu*****/
+#nav li a {
+  display: block;
+  padding: 0px 0px 0px 0px;
+  font-weight: 1000;
+  height: 20px;
+  text-decoration: none;
+  color: #bebebe;
+  text-align: center;
+  color: #333333; }
+
+#nav li a:hover {
+  color: #bebebe; }
+
+/* style for default selected value */
+#nav a.selected {
+  color: #bebebe; }
+
+/* submenu */
+#nav ul {
+  position: absolute;
+  left: 7px;
+  display: none;
+  margin: 0 0 0 0px;
+  padding: 0;
+  list-style: none; }
+
+#nav ul li {
+  width: 140px;
+  float: left;
+  border-top: 0px solid #fff; }
+
+/* display block will make the link fill the whole area of LI */
+#nav ul a {
+  display: block;
+  height: 13px;
+  padding: 8px 1px;
+  color: #333333; }
+
+#nav ul a:hover {
+  text-decoration: underline;
+  padding-left: 0px;
+  font-size: 12px; }
+

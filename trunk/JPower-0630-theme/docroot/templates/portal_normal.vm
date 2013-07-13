@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+#parse ($init)
+
+<html class="#language("lang.dir")" dir="#language("lang.dir")" lang="$w3c_language_id" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+	<title>J POWER | dream‧ design‧ deliver</title>
+	$theme.include($top_head_include)   
+
+<script type="text/javascript" charset="utf-8" src="${javascript_folder}/jpower.js"></script>
+<style type="text/css">
+body {
+	background-repeat: repeat-x;
+	background-color: #FFF;
+}
+</style>
+
+<!--
+#if ($w3c_language_id == "zh-TW")
+	<link rel="stylesheet" type="text/css" href="${css_folder}/style_chn.css" />
+#else
+	 <link rel="stylesheet" type="text/css" href="${css_folder}/style_eng.css" />
+#end
+-->
+</head>
+
+<body onload="MM_preloadImages('${images_folder}/menu-2_01.png','${images_folder}/menu-2_02.png','${images_folder}/menu-2_03.png','${images_folder}/menu-2_04.png','${images_folder}/menu-2_05.jpg','${images_folder}/menu-2_06.png','${images_folder}/lang-07-over_01.jpg','${images_folder}/lang-07-over_03.jpg',
+${images_folder}/menu-2_01_chn.png','${images_folder}/menu-2_02_chn.png','${images_folder}/menu-2_03_chn.png','${images_folder}/menu-2_04_chn.png','${images_folder}/menu-2_05_chn.jpg','${images_folder}/menu-2_06_chn.png')">
+
+$theme.include($body_top_include)
+
+#if ($is_signed_in)
+	#dockbar()
+#end
+
+<!-- <div id="wrapper"> --> 
+ <div id="main_container">
+
+	<!-- <header id="banner" role="banner"> -->	
+			
+    	#if (!$is_signed_in)
+			<a href="$sign_in_url" id="sign-in" rel="nofollow">$sign_in_text</a>
+		#end
+	
+			#if ($w3c_language_id == "zh-TW")
+				#parse ("$full_templates_path/menu_chn.vm")
+			#else
+				#parse ("$full_templates_path/menu_eng.vm")
+			#end
+				
+	<!-- </header> -->
+	
+	
+	<div id="content">  
+		#if ($selectable)
+			$theme.include($content_include)
+		#else
+			$portletDisplay.recycle()
+
+			$portletDisplay.setTitle($the_title)
+
+			$theme.wrapPortlet("portlet.vm", $content_include)
+		#end
+	</div> 
+  <div id="carousel" class="es-carousel-wrapper">
+    <!-- End Elastislide Carousel -->
+    Copyright  © 2013 JIB Ltd. All Right Reserved.</div>
+	<div class="clear"></div> 
+
+</div><!-- main_container -->
+
+<blockquote>	</blockquote>
+
+<!-- </div>  end of wrapper -->
+$theme.include($body_bottom_include)
+
+</body>
+
+$theme.include($bottom_include)
+
+</html>
