@@ -5,7 +5,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   border: 0;
   outline: 0;
-  font-size: 14px;
+  font-size: 12px;
   vertical-align: baseline;
   background: transparent;
   font-family: calibri,Arial, Helvetica, sans-serif;
@@ -70,7 +70,7 @@ table {
 body {
   font-family: calibri,Arial, Helvetica, sans-serif;
   padding: 0;
-  font-size: 14px;
+  font-size: 12px;
   margin: 0 auto;
   color: #000000; }
 
@@ -80,12 +80,12 @@ body {
 p {
   padding: 0;
   margin: 0px;
-  text-align: left;
+  text-align: center;
   line-height: 20px;
-  font-size: 14px; }
+  color: #000; }
 
 a {
-  color: #666;
+  color: #9856B0;
   text-decoration: none; }
 
 a img {
@@ -93,9 +93,8 @@ a img {
 
 a:hover {
   text-decoration: none;
-  font-size: 14px;
-  font-family: calibri,Arial, Helvetica, sans-serif;
-  color: #666; }
+  font-size: 12px;
+  font-family: calibri,Arial, Helvetica, sans-serif; }
 
 a.more {
   display: block;
@@ -161,7 +160,7 @@ h5.subtitle {
 h6 {
   font-weight: normal;
   color: #EF502C;
-  font-size: 14px;
+  font-size: 12px;
   margin: 0;
   padding: 0 0 25px 0; }
 
@@ -191,7 +190,7 @@ h1, h2, h3, h4 {
   height: 140px;
   font-family: Arial, Helvetica, sans-serif;
   background-attachment: scroll;
-  background-image: url(images/menu-bg-03.png);
+  background-image: none;
   background-repeat: no-repeat; }
 
 .logo {
@@ -223,10 +222,7 @@ h1, h2, h3, h4 {
   border-top-width: 1px;
   border-top-style: solid;
   border-top-color: #CCC;
-  height: 20px;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #CCC; }
+  height: 20px; }
 
 ul#main_menu {
   list-style: none;
@@ -470,8 +466,7 @@ img.left_icon {
 .mainpicture222 {
   float: left;
   height: 437px;
-  width: 800px;
-  margin-top: -3px; }
+  width: 800px; }
 
 .subword {
   float: left;
@@ -520,18 +515,28 @@ img.left_icon {
   float: left;
   height: 30px; }
 
+.tab {
+  font-family: arial, verdana, san-serif;
+  font-size: 12px; }
+
+.asd {
+  text-decoration: none;
+  font-family: arial, verdana, san-serif;
+  font-size: 12px;
+  color: #bebebe; }
+
 .aboutus111 {
   float: left;
   height: auto;
   width: 800px; }
 
 .tab {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: calibri, verdana, san-serif;
   font-size: 12px; }
 
 .asd {
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: calibri, verdana, san-serif;
   font-size: 12px;
   color: #bebebe; }
 
@@ -549,8 +554,7 @@ img.left_icon {
   background: #ffffff;
   position: relative;
   z-index: 300;
-  margin: 0 1px;
-  text-align: left; }
+  margin: 0 1px; }
 
 /*****parent menu*****/
 #nav li a {
@@ -560,7 +564,7 @@ img.left_icon {
   height: 20px;
   text-decoration: none;
   color: #bebebe;
-  text-align: left;
+  text-align: center;
   color: #333333; }
 
 #nav li a:hover {
@@ -587,23 +591,14 @@ img.left_icon {
 /* display block will make the link fill the whole area of LI */
 #nav ul a {
   display: block;
-  height: 12px;
-  color: #333333;
-  padding-top: 5px;
-  padding-right: 1px;
-  padding-bottom: 5px;
-  padding-left: 37px;
-  font-size: 11px;
-  font-family: Arial, Helvetica, sans-serif; }
+  height: 13px;
+  padding: 8px 1px;
+  color: #333333; }
 
 #nav ul a:hover {
   text-decoration: underline;
-  padding-top: 5px;
-  padding-right: 1px;
-  padding-bottom: 5px;
-  padding-left: 37px;
-  font-size: 11px;
-  font-family: Arial, Helvetica, sans-serif; }
+  padding-left: 0px;
+  font-size: 12px; }
 
 .tab2 {
   font-family: calibri, verdana, san-serif;
@@ -629,8 +624,7 @@ img.left_icon {
   background: #ffffff;
   position: relative;
   z-index: 300;
-  margin: 0 1px;
-  text-align: left; }
+  margin: 0 1px; }
 
 /*****parent menu*****/
 #nav2 li a {
@@ -640,7 +634,7 @@ img.left_icon {
   height: 20px;
   text-decoration: none;
   color: #bebebe;
-  text-align: left;
+  text-align: center;
   color: #333333; }
 
 #nav2 li a:hover {
@@ -668,22 +662,13 @@ img.left_icon {
 #nav2 ul a {
   display: block;
   height: 13px;
-  padding-top: 5px;
-  padding-right: 1px;
-  padding-bottom: 5px;
-  padding-left: 38px;
-  color: #333333;
-  font-size: 11px;
-  font-family: Arial, Helvetica, sans-serif; }
+  padding: 8px 1px;
+  color: #333333; }
 
 #nav2 ul a:hover {
   text-decoration: underline;
-  padding-top: 5px;
-  padding-right: 1px;
-  padding-bottom: 5px;
-  padding-left: 38px;
-  font-size: 11px;
-  font-family: Arial, Helvetica, sans-serif; }
+  padding-left: 0px;
+  font-size: 12px; }
 
 .tab3 {
   font-family: calibri, verdana, san-serif;
@@ -719,7 +704,7 @@ img.left_icon {
   height: 20px;
   text-decoration: none;
   color: #bebebe;
-  text-align: left;
+  text-align: center;
   color: #333333; }
 
 #nav3 li a:hover {
@@ -747,78 +732,43 @@ img.left_icon {
 #nav3 ul a {
   display: block;
   height: 13px;
-  padding-top: 5px;
-  padding-right: 1px;
-  padding-bottom: 5px;
-  padding-left: 33px;
-  color: #333333;
-  font-size: 11px;
-  font-family: Arial, Helvetica, sans-serif; }
+  padding: 8px 1px;
+  color: #333333; }
 
 #nav3 ul a:hover {
   text-decoration: underline;
-  padding-top: 5px;
-  padding-right: 1px;
-  padding-bottom: 5px;
-  padding-left: 33px;
-  font-size: 11px;
-  font-family: Arial, Helvetica, sans-serif; }
+  padding-left: 0px;
+  font-size: 12px; }
 
 .aboutus-01 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia,"Times New Roman",Times,serif;
   float: left;
   height: 50px;
-  width: 330px;
-  margin-right: 0px;
+  width: 310px;
+  margin-right: 20px;
   margin-left: 10px;
   font-size: 12px;
-  color: #F00;
+  color: red;
   text-align: left;
-  margin-top: 0px;
+  margin-top: 80px;
   line-height: 21px;
   font-style: italic; }
 
 .aboutus-01-2 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia,"Times New Roman",Times,serif;
   float: left;
   height: 45px;
-  width: 43px;
+  width: 45px;
   margin-right: 0px;
-  margin-left: 5px;
+  margin-left: 75px;
   font-size: 12px;
   color: #347271;
   text-align: left;
-  margin-top: 0px;
+  margin-top: 80px;
   line-height: 21px;
   font-style: italic; }
 
 .aboutus-02 {
-  font-family: calibri, Arial,verdana, san-serif;
-  float: left;
-  height: auto;
-  width: 400px;
-  margin-right: 30px;
-  margin-left: 190px;
-  font-size: 12px;
-  color: #000;
-  text-align: justify;
-  margin-top: 60px;
-  line-height: 21px; }
-
-.aboutus-02-2 {
-  font-family: calibri, Arial, verdana, san-serif;
-  float: left;
-  height: auto;
-  width: 350px;
-  margin-right: 20px;
-  margin-left: 35px;
-  font-size: 14px;
-  color: #000;
-  text-align: left;
-  margin-top: 15px;
-  line-height: 20px; }
-
-.aboutus-02-3 {
   font-family: calibri, Arial,verdana, san-serif;
   float: left;
   height: auto;
@@ -828,18 +778,44 @@ img.left_icon {
   font-size: 12px;
   color: #000;
   text-align: justify;
+  margin-top: 60px;
+  line-height: 21px; }
+
+.aboutus-02-2 {
+  font-family: calibri, Arial,verdana, san-serif;
+  float: left;
+  height: auto;
+  width: 350px;
+  margin-right: 20px;
+  margin-left: 35px;
+  font-size: 12px;
+  color: #000;
+  text-align: justify;
+  margin-top: 15px;
+  line-height: 21px; }
+
+.aboutus-02-3 {
+  font-family: calibri,Arial,verdana,san-serif;
+  float: left;
+  height: auto;
+  width: 720px;
+  margin-right: 30px;
+  margin-left: 35px;
+  font-size: 12px;
+  color: black;
+  text-align: justify;
   margin-top: 20px;
   line-height: 21px; }
 
 .aboutus-02-4 {
-  font-family: calibri, Arial,verdana, san-serif;
+  font-family: calibri,Arial,verdana,san-serif;
   float: left;
   height: auto;
   width: 300px;
   margin-right: 0px;
   margin-left: 35px;
-  font-size: 14px;
-  color: #000;
+  font-size: 12px;
+  color: black;
   text-align: justify;
   margin-top: 60px;
   line-height: 21px; }
@@ -847,7 +823,7 @@ img.left_icon {
 .font-about-special {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 16px;
-  color: #099;
+  color: #009999;
   font-style: italic;
   font-weight: bold; }
 
@@ -858,15 +834,15 @@ img.left_icon {
   width: 350px;
   margin-right: 20px;
   margin-left: 35px;
-  font-size: 14px;
+  font-size: 12px;
   color: #000;
   text-align: justify;
   margin-top: 20px;
-  line-height: 20px; }
+  line-height: 21px; }
 
 .font-about-special2 {
   font-family: calibri, Arial, verdana, san-serif;
-  font-size: 16px;
+  font-size: 14px;
   color: #347271;
   font-style: normal;
   font-weight: bold; }
@@ -899,8 +875,7 @@ img.left_icon {
   width: 160px;
   color: #000;
   border: 1px solid #CCC;
-  padding-left: 10px;
-  font-size: 14px; }
+  padding-left: 10px; }
 
 .about-blank2 {
   float: left;
@@ -918,8 +893,7 @@ img.left_icon {
   border-right-color: #CCC;
   border-bottom-color: #CCC;
   border-left-color: #CCC;
-  padding-left: 10px;
-  font-size: 14px; }
+  padding-left: 10px; }
 
 .about-blank3 {
   float: left;
@@ -938,8 +912,7 @@ img.left_icon {
   border-bottom-color: #CCC;
   border-left-color: #CCC;
   padding-left: 10px;
-  border-left-width: 1px;
-  font-size: 14px; }
+  border-left-width: 1px; }
 
 .about-blank4 {
   float: left;
@@ -958,19 +931,13 @@ img.left_icon {
   border-bottom-color: #CCC;
   border-left-color: #CCC;
   padding-left: 10px;
-  border-left-width: 0px;
-  font-size: 14px; }
+  border-left-width: 0px; }
 
 .service-01 {
-  font-family: calibri, Arial, verdana, san-serif;
+  font-family: calibri, Arial,verdana, san-serif;
   font-size: 22px;
   color: #63861D;
   font-weight: bold; }
-
-.contact-01 {
-  font-family: calibri, Arial,verdana, san-serif;
-  font-size: 18px;
-  color: #52D1A6; }
 
 .service-02 {
   font-family: calibri, Arial,verdana, san-serif;
@@ -999,100 +966,15 @@ img.left_icon {
   line-height: 21px; }
 
 .servicec-cycle2 {
-  font-family: calibri, Arial,verdana, san-serif;
+  font-family: calibri,Arial,verdana,san-serif;
   float: left;
   height: auto;
   width: 350px;
-  margin-right: 20px;
-  margin-left: 35px;
-  font-size: 14px;
-  color: #000;
-  text-align: left;
-  margin-top: 15px;
-  line-height: 20px;
-  margin-bottom: 50px; }
-
-.servicec-cycle2-2 {
-  font-family: calibri, Arial,verdana, san-serif;
-  float: left;
-  height: auto;
-  width: 720px;
-  margin-right: 20px;
-  margin-left: 35px;
+  margin: 15px 20px 50px 35px;
   font-size: 12px;
-  color: #000;
+  color: black;
   text-align: justify;
-  margin-top: 15px;
-  line-height: 21px;
-  margin-bottom: 50px; }
-
-.servicec-cycle3 {
-  font-family: calibri, Arial,verdana, san-serif;
-  float: left;
-  height: auto;
-  width: 720px;
-  margin-right: 20px;
-  margin-left: 35px;
-  font-size: 12px;
-  color: #000;
-  text-align: justify;
-  margin-top: 15px;
-  line-height: 21px;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-top-color: #CCC;
-  border-right-color: #CCC;
-  border-bottom-color: #CCC;
-  border-left-color: #CCC;
-  padding-bottom: 15px; }
-
-.servicec-cycle4 {
-  font-family: calibri, Arial,verdana, san-serif;
-  float: left;
-  height: auto;
-  width: 400px;
-  font-size: 12px;
-  color: #000;
-  text-align: justify;
-  line-height: 21px;
-  border-bottom-width: 0px;
-  border-bottom-style: solid;
-  border-top-color: #CCC;
-  border-right-color: #CCC;
-  border-bottom-color: #CCC;
-  border-left-color: #CCC; }
-
-.servicec-cycle5 {
-  font-family: calibri, Arial,verdana, san-serif;
-  float: left;
-  height: auto;
-  width: 350px;
-  font-size: 12px;
-  color: #000;
-  text-align: justify;
-  line-height: 21px;
-  border-bottom-width: 0px;
-  border-bottom-style: solid;
-  border-top-color: #CCC;
-  border-right-color: #CCC;
-  border-bottom-color: #CCC;
-  border-left-color: #CCC; }
-
-.servicec-cycle6 {
-  font-family: calibri, Arial,verdana, san-serif;
-  float: left;
-  height: auto;
-  width: 392px;
-  font-size: 12px;
-  color: #000;
-  text-align: justify;
-  line-height: 21px;
-  border-bottom-width: 0px;
-  border-bottom-style: solid;
-  border-top-color: #CCC;
-  border-right-color: #CCC;
-  border-bottom-color: #CCC;
-  border-left-color: #CCC; }
+  line-height: 21px; }
 
 .cycle-left {
   float: left;
@@ -1111,8 +993,7 @@ img.left_icon {
   width: 560px;
   margin-left: 20px;
   color: #000;
-  line-height: 20px;
-  font-size: 14px; }
+  line-height: 19px; }
 
 .table-frame {
   float: left;
@@ -1234,125 +1115,11 @@ img.left_icon {
   margin-top: 15px;
   line-height: 21px; }
 
-.link-over {
-  font-family: calibri, Arial,verdana, san-serif;
-  font-size: 14px;
-  color: #000; }
-
 .about-photo {
   float: left;
-  height: auto;
+  height: 350px;
   width: 350px;
   margin-top: 15px;
   margin-left: 5px;
-  margin-bottom: 10px; }
-
-.contact-map {
-  float: left;
-  height: 500px;
-  width: 700px;
-  margin-top: 15px;
-  margin-left: 32px;
-  margin-right: 35px;
-  margin-bottom: 35px; }
-
-.caption {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  color: #000;
-  float: left;
-  height: 100px;
-  width: 340px;
-  margin-left: 10px; }
-
-.wording-frame {
-  float: left;
-  height: auto;
-  width: 560px;
-  margin-bottom: 8px; }
-
-.point-1 {
-  float: left;
-  width: 10px;
-  margin-right: 4px; }
-
-.content-1 {
-  float: left;
-  width: 540px;
-  font-size: 14px; }
-
-.wording-frame2 {
-  float: left;
-  height: auto;
-  width: 720px;
-  margin-bottom: 8px; }
-
-.point-2 {
-  float: left;
-  width: 10px;
-  margin-right: 4px; }
-
-.top-2 {
-  float: left;
-  width: 20px;
-  margin-right: 4px;
-  height: 20px;
-  padding-top: 5px; }
-
-.content-2 {
-  float: left;
-  width: 680px;
-  font-size: 14px; }
-
-.content-4 {
-  float: left;
-  width: 340px;
-  font-size: 14px;
-  margin-top: 20px; }
-
-.content-3 {
-  float: left;
-  width: 330px;
-  font-size: 14px;
-  line-height: 20px;
-  text-align: left; }
-
-.space {
-  float: left;
-  font-size: 14px;
-  margin-top: 20px;
-  height: 8px;
-  width: 350px; }
-
-.colorboard-1 {
-  background-color: #2790BA;
-  float: left;
-  height: 20px;
-  width: 320px;
-  padding-top: 10px;
-  padding-right: 15px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  font-size: 14px;
-  color: #FFF; }
-
-.colorboard-2 {
-  background-color: #09C;
-  float: left;
-  height: 20px;
-  width: 320px;
-  padding-top: 10px;
-  padding-right: 15px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  font-size: 14px;
-  color: #FFF; }
-
-.space2 {
-  float: left;
-  font-size: 14px;
-  margin-top: 15px;
-  height: 8px;
-  width: 560px; }
+  margin-bottom: 25px; }
 
